@@ -1,0 +1,36 @@
+
+xmonad.hs:225:6: warning: [-Wtabs]
+    Tab character found here, and in 36 further locations.
+    Please use spaces instead.
+    |
+225 |               $ spacing mySpacing
+    |      ^^^
+
+xmonad.hs:225:17: warning: [-Wdeprecations]
+    In the use of ‘spacing’ (imported from XMonad.Layout.Spacing):
+    Deprecated: "Use spacingRaw instead."
+    |
+225 |               $ spacing mySpacing
+    |                 ^^^^^^^
+
+xmonad.hs:229:17: warning: [-Wdeprecations]
+    In the use of ‘spacing’ (imported from XMonad.Layout.Spacing):
+    Deprecated: "Use spacingRaw instead."
+    |
+229 |               $ spacing mySpacing
+    |                 ^^^^^^^
+
+xmonad.hs:242:18: warning: [-Wdeprecations]
+    In the use of ‘spacing’ (imported from XMonad.Layout.Spacing):
+    Deprecated: "Use spacingRaw instead."
+    |
+242 |                $ spacing mySpacing
+    |                  ^^^^^^^
+
+xmonad.hs:354:20: warning: [-Wdeprecations]
+    In the use of ‘defaultConfig’
+    (imported from XMonad, but defined in XMonad.Config):
+    Deprecated: "Use def (from Data.Default, and re-exported by XMonad and XMonad.Config) instead."
+    |
+354 |     xmonad $ docks defaultConfig
+    |                    ^^^^^^^^^^^^^
